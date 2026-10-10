@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+**/config/master.key
+**/config/credentials/*.key
+
+# Ruby / Rails project artifacts
+**/log/*
+**/tmp/*
+**/storage/*
+**/.bundle/
+**/vendor/bundle/
+**/coverage/
+
+# Node
+**/node_modules/
+
+# Personal reflections tied to real employers — local only
+private/
